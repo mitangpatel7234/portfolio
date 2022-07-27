@@ -38,7 +38,7 @@ const Home = () => {
                idx={20}/>
                </h1>
                <h2>Full stack devloper/ Javascript Expert / Data Analyst</h2>
-               <a href={require("../../assets/file/file.pdf")} download="myFile" className='flat-button'>Download Resume</a>
+               <a href={require("../../assets/file/file.pdf")} download="Mitang-resume" className='flat-button'>Download Resume</a>
             </div>
             <div className="text-bottom">
               <h4>This website is made by
