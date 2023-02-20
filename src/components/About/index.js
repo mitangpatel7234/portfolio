@@ -24,20 +24,21 @@ const About = () => {
   return (
     <>
       <div className="container about-page">
-        <div className="text-zone">
-          <h1>
+        <div className="about-zone">
+          <h1 className='abHeading'>
             <AnimatedLetters
               letterClass={letterClass}
               strArray={['A', 'b', 'o', 'u', 't', ' ', 'm', 'e']}
               idx={15}
             />
           </h1>
+          <div className="para">
           <p>
             I'm very ambitious front-end developer looking for a role in
             established IT company with the opportunity to work with the latest
             technologies on challenging and diverse projects.
           </p>
-          <p align="LEFT">
+          <p align="left">
             I'm quietly confident, naturally curious, and perpetually working on
             improving my chops one design problem at a time.
           </p>
@@ -46,6 +47,7 @@ const About = () => {
             person,  a sports fanatic,
             photography enthusiast, and tech-obsessed!!!
           </p>
+          </div>
         </div>
 
         <div className="stage-cube-cont">

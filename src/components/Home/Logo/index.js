@@ -9,7 +9,8 @@ const Logo = () => {
   const outlineLogoRef = useRef()
   const solidLogoRef = useRef()
 
-  useEffect(() => {
+  
+     useEffect(() => {
     gsap.registerPlugin()
 
     gsap
@@ -22,15 +23,16 @@ const Logo = () => {
     gsap.fromTo(
       solidLogoRef.current,
       {
-        opacity: 0,
+        // opacity: 0
       },
       {
-        opacity: 1,
         delay: 4,
         duration: 4,
       }
     )
   }, [])
+
+  
 
   return (
     <div className="logo-container" ref={bgRef}>
@@ -39,6 +41,7 @@ const Logo = () => {
         ref={solidLogoRef}
         src={LogoS}
         alt="JavaScript,  Developer"
+        
       />
 
       

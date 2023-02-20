@@ -57,7 +57,9 @@ const Portfolio = () => {
                         idx={15}
                     />
                 </h1>
+                <div className="pmain">
                 <div>{renderPortfolio(portfolioData.portfolio)}</div>
+                </div>
             </div>
             <Loader type="pacman" />
         </>
